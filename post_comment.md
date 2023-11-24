@@ -1,3 +1,5 @@
+
+<code>
 from beem import Hive
 from beem.comment import Comment
 
@@ -23,3 +25,5 @@ parent_post = Comment(f'@{author}/{permlink}', blockchain_instance=hive)
 parent_post.reply(body=comment_text, author=account_name)
 
 print("Comment submitted successfully!")
+
+</code>
