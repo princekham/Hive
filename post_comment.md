@@ -1,5 +1,5 @@
 
-<code>
+```
 from beem import Hive
 from beem.comment import Comment
 
@@ -26,4 +26,4 @@ parent_post.reply(body=comment_text, author=account_name)
 
 print("Comment submitted successfully!")
 
-</code>
+```
